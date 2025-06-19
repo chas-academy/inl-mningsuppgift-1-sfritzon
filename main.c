@@ -10,32 +10,32 @@ int main()
     for (int i=0; i<100; i++){
         dice_rolls[i] = (rand() %6) +1;
     }
-        int roll1 = 0;
-        int roll2 = 1;
-        int roll3 = 2;
-        int roll4 = 3;
-        int roll5 = 4;
-        int roll6 = 5;
+        int one = 0;
+        int two = 1;
+        int three = 2;
+        int four = 3;
+        int five = 4;
+        int six = 5;
         int sum = 0;
 
         for (int i=0; i<100; i++){
             if (dice_rolls[i] == 1){
-                roll1++;
+                one++;
             }
               if (dice_rolls[i] == 2){
-                roll2++;
+                two++;
             }
               if (dice_rolls[i] == 3){
-                roll3++;
+                three++;
             }
               if (dice_rolls[i] == 4){
-                roll4++;
+                four++;
             }
               if (dice_rolls[i] == 5){
-                roll5++;
+                five++;
             }
               if (dice_rolls[i] == 6){
-                roll6++;
+                six++;
             }
             sum+=dice_rolls[i];
         }
