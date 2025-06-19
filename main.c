@@ -40,12 +40,12 @@ int main()
             sum+=dice_rolls[i];
         }
 
-        printf("%d\n", roll1);
-        printf("%d\n", roll2);
-        printf("%d\n", roll3);
-        printf("%d\n", roll4);
-        printf("%d\n", roll5);
-        printf("%d\n", roll6);
+        printf("%d\n", one);
+        printf("%d\n", two);
+        printf("%d\n", three);
+        printf("%d\n", four);
+        printf("%d\n", five);
+        printf("%d\n", six);
         printf("%d\n", sum); 
         printf("%.1f\n", sum/100.0);  
  
