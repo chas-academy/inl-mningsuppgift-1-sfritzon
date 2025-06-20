@@ -6,46 +6,46 @@ int main()
     // The Line below must *NOT* be changed or test will fail!
     srand(1);
     int dice_rolls[100];
-    
+
     for (int i=0; i<100; i++){
         dice_rolls[i] = (rand() %6) +1;
     }
-        int one = 0;
-        int two = 1;
-        int three = 2;
-        int four = 3;
-        int five = 4;
-        int six = 5;
+        int roll1 = 0;
+        int roll2 = 1;
+        int roll3 = 2;
+        int roll4 = 3;
+        int roll5 = 4;
+        int roll6 = 5;
         int sum = 0;
 
         for (int i=0; i<100; i++){
             if (dice_rolls[i] == 1){
-                one++;
+                roll1++;
             }
               if (dice_rolls[i] == 2){
-                two++;
+                roll2++;
             }
               if (dice_rolls[i] == 3){
-                three++;
+                roll3++;
             }
               if (dice_rolls[i] == 4){
-                four++;
+                roll4++;
             }
               if (dice_rolls[i] == 5){
-                five++;
+                roll5++;
             }
               if (dice_rolls[i] == 6){
-                six++;
+                roll6++;
             }
             sum+=dice_rolls[i];
         }
 
-        printf("%d\n", one);
-        printf("%d\n", two);
-        printf("%d\n", three);
-        printf("%d\n", four);
-        printf("%d\n", five);
-        printf("%d\n", six);
+        printf("%d\n", roll1);
+        printf("%d\n", roll2);
+        printf("%d\n", roll3);
+        printf("%d\n", roll4);
+        printf("%d\n", roll5);
+        printf("%d\n", roll6);
         printf("%d\n", sum); 
         printf("%.1f", sum/100.0);  
  
